@@ -1,1 +1,10 @@
-# ActiveProjects
+# Red Wine Quality Prediction - Machine Learning 
+### Problem Statement: 
+The prediction of red wine quality is crucial for preserving human health, as its consumption has become increasingly common. The quality of wine is largely determined by the composition of the grapes, which can vary based on several factors such as acidity, pH, density, and sulfur dioxide levels etc., the profitability of the wine industry makes it susceptible to adulteration which posesses a serious health risk to consumers. Traditional laboratory testing for wine quality is time-consuming and costly. Developing a predictive model based on wine attributes can significantly reduce the time and expense required for quality assessment, ensuring safer consumption and enhancing market efficiency.
+### Dataset Information:
+The Dataset consists of 1599 Records (rows) and 12 Fields (columns or attributes), In which there are 11 input variables considered as physiochemical features and 1 output variable based on sensory data. Following are the list of Input variables: Fixed acidity, Volatile acidity, Citric acid, Residual sugar, Chlorides, Free sulfur dioxide, Total sulfur dioxide, Density, pH Value, Sulphates, Alcohol and Output variable: Quality (score between 0 and 10).
+###### Note:  Due to Privacy and logistic constraints, only physiochemical (input) and sensory (output) variables are accessible (data on grape types, wine brand, wine selling price, etc. is unavailable)
+### Objective: 
+The primary goal of the red wine quality dataset is to identify which physiochemical features contribute to producing high-quality wine. With 11 input variables and 1 output variable (quality), the model analyzes the dataset to predict wine quality based on the above attributes. Machine learning algorithms such as Logistic Regression, Decision Tree, Random Forest, and K-Nearest Neighbor are applied individually to train and test the data. The performance of each algorithm is compared, and the one with the highest accuracy is considered the most effective model for predicting red wine quality.
+
+Let's goooo!!
